@@ -1,0 +1,29 @@
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
+    <script src="test.js" type="text/javascript" charset="utf-8"></script>
+  </head>
+  <body>
+    <h2>My First JavaScript</h2>
+
+    <button type="button" onclick="edit()">Edit</button>
+
+    <input type="text" id="me.Name" value="..." disabled />
+
+    <button type="button" id="OK" onclick="ok()" hidden>OK</button>
+
+    <script>
+      document.getElementById("me.Name").value = me.getName();
+
+      function edit() {
+        document.getElementById("me.Name").removeAttribute("disabled");
+        document.getElementById("OK").removeAttribute("hidden");
+      }
+
+      function ok() {
+        DOCUMENT.getElementById("me.Name").disabled = "true";
+        document.getElementById("OK").hidden = "hidden";
+      }
+    </script>
+  </body>
+</html>

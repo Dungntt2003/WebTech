@@ -1,0 +1,762 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mini project #1: HTML, CSS & responsible framework</title>
+    <link rel="stylesheet" href="./asserts/css/main.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./asserts/css/all.min.css" />
+  </head>
+  <body>
+    <nav class="project-navigation">
+      <ul class="project-nav-list">
+        <li class="project-nav-item">
+          <a href="#main-page" class="project-nav-link project-nav-img-link">
+            <img
+              src="./asserts/images/logo.jpg"
+              alt="Logo subject"
+              class="project-nav-image"
+            />
+          </a>
+        </li>
+        <li class="project-nav-item mobile-hidden">
+          <a href="#subject-info" class="project-nav-link">Thông tin môn học</a>
+        </li>
+        <li class="project-nav-item mobile-hidden">
+          <a href="#tech-use" class="project-nav-link">Các công nghệ Web</a>
+        </li>
+        <li class="project-nav-item mobile-hidden">
+          <a href="#student-info" class="project-nav-link"
+            >Thông tin sinh viên</a
+          >
+        </li>
+        <li class="project-nav-item project-nav-bars-icon">
+          <a href="#" class="project-nav-link" id="menu-toggle">
+            <i class="fa-solid fa-bars"></i>
+          </a>
+        </li>
+      </ul>
+    </nav>
+
+    <div class="project-main-content">
+      <main class="project-main">
+        <section id="main-page">
+          <nav class="left-nav" id="left-nav">
+            <div class="left-nav-times" id="close-nav">
+              <i class="fa-solid fa-xmark"></i>
+            </div>
+            <h2 class="left-nav-header">Menu</h2>
+            <ul class="left-nav-list">
+              <li class="left-nav-item">
+                <a href="#main-page-start" class="left-nav-link"
+                  >Thông tin khai giảng</a
+                >
+              </li>
+              <li class="left-nav-item">
+                <a href="#main-page-company" class="left-nav-link"
+                  >Thông tin công ty</a
+                >
+              </li>
+              <li class="left-nav-item">
+                <a href="#main-page-seminar" class="left-nav-link"
+                  >Thông tin semina</a
+                >
+              </li>
+              <!-- <li class="left-nav-item">
+                        <a href="#" class="left-nav-link">Link</a>
+                      </li> -->
+            </ul>
+          </nav>
+          <div class="content">
+            <!-- link 1 in top navigation -->
+            <div id="main-page-start" class="flex-property">
+              <div class="main-page-start-article">
+                <h2 class="main-page-start-heading">Thông tin khai giảng</h2>
+                <ul class="main-page-start-list">
+                  <li class="main-page-start-item">
+                    Tên môn học: IT4409/IT4409E - Công nghệ web và dịch vụ trực
+                    tuyến (Web technologies and e-Services)
+                  </li>
+                  <li class="main-page-start-item">
+                    Ngày khai giảng: 15 tháng 11 năm 2024
+                  </li>
+                  <li class="main-page-start-item">
+                    Nội dung chính: công nghệ web hiện đại và phát triển ứng
+                    dụng web
+                  </li>
+                  <li class="main-page-start-item">
+                    Giảng viên: ThS. Trần Thị B
+                  </li>
+                  <li class="main-page-start-item">
+                    Địa điểm dạy: Phòng 203, Tòa nhà Khoa Công nghệ Thông tin
+                  </li>
+                  <li class="main-page-start-item">
+                    Chuẩn bị ban đầu:
+                    <ul class="main-page-prepare">
+                      <li class="main-page-prepare-item">Laptop cá nhân</li>
+                      <li class="main-page-prepare-item">Tài liệu học tập</li>
+                    </ul>
+                  </li>
+                </ul>
+                <img src="./asserts/images/start-image.jpg" alt="start-image" />
+              </div>
+              <div class="main-page-start-ad">
+                <a
+                  href="https://www.tailieubkhn.com/2021/10/cong-nghe-web-va-dich-vu-truc-tuyen.html"
+                  class="main-page-start-ad-link"
+                  target="_blank"
+                >
+                  <img
+                    src="./asserts/images/start-image-ad.png"
+                    alt="start-image-ad"
+                    style="border: 1px solid #ccc"
+                  />
+                </a>
+              </div>
+            </div>
+            <div id="main-page-company" class="flex-property">
+              <div class="main-page-start-article">
+                <h2 class="main-page-start-heading">
+                  Thông tin công ty quan tâm
+                </h2>
+                <ul class="main-page-start-list">
+                  <li class="main-page-start-item">
+                    Thông tin Công ty
+                    <ul class="main-page-prepare">
+                      <li class="main-page-prepare-item">
+                        Công ty XYZ là một trong những công ty hàng đầu về phát
+                        triển ứng dụng web và di động tại Việt Nam.
+                      </li>
+                      <li class="main-page-prepare-item">
+                        Công ty đang tìm kiếm các lập trình viên có kiến thức
+                        sâu về HTML, CSS, JavaScript và các framework như React,
+                        Angular để tham gia vào các dự án phát triển web.
+                      </li>
+                      <li class="main-page-prepare-item">
+                        Công ty áp dụng quy trình phát triển phần mềm Agile, tạo
+                        môi trường làm việc năng động, cơ hội thăng tiến rõ
+                        ràng.
+                      </li>
+                      <li class="main-page-prepare-item">
+                        Đây là cơ hội tuyệt vời để ứng dụng những gì đã học
+                        trong môn Công nghệ Web vào thực tế, đồng thời phát
+                        triển bản thân trong một môi trường chuyên nghiệp.
+                      </li>
+                    </ul>
+                  </li>
+                </ul>
+                <img src="./asserts/images/company.png" alt="start-image" />
+              </div>
+              <div class="main-page-start-ad">
+                <a
+                  href="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.kumsalajans.com%2Fen%2Fblog%2Fweb-design%2Fweb-design-companies-selection-tips&psig=AOvVaw3Phq-VvrAQMqoQLlq9SEHx&ust=1729196920919000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCKjC5tPek4kDFQAAAAAdAAAAABAI"
+                  class="main-page-start-ad-link"
+                  target="_blank"
+                  class="tablet-set-block"
+                >
+                  <img
+                    src="./asserts/images/company-ad.jpg"
+                    alt="start-image-ad"
+                    style="border: 1px solid #ccc"
+                  />
+                </a>
+              </div>
+            </div>
+            <div id="main-page-seminar" class="flex-property">
+              <div class="main-page-start-article">
+                <h2 class="main-page-start-heading">
+                  Thông tin công ty quan tâm
+                </h2>
+                <ul class="main-page-start-list">
+                  <li class="main-page-start-item">
+                    Thông tin Seminar
+                    <ul class="main-page-prepare">
+                      <li class="main-page-prepare-item">
+                        Tham gia Seminar "Xu hướng công nghệ Web và ứng dụng
+                        trong tương lai" do Công ty ABC tổ chức.
+                      </li>
+                      <li class="main-page-prepare-item">
+                        Nội dung seminar tập trung chia sẻ về các công nghệ web
+                        mới nổi như WebAssembly, Jamstack, Serverless Computing
+                        và cách ứng dụng chúng để xây dựng ứng dụng web hiện
+                        đại.
+                      </li>
+                      <li class="main-page-prepare-item">
+                        Được nghe từ các diễn giả là những chuyên gia hàng đầu
+                        trong lĩnh vực phát triển web tại Việt Nam.
+                      </li>
+                      <li class="main-page-prepare-item">
+                        Qua seminar, hiểu rõ hơn về những thách thức và cơ hội
+                        trong việc áp dụng công nghệ web mới vào các dự án thực
+                        tế.
+                      </li>
+                    </ul>
+                  </li>
+                </ul>
+                <img
+                  src="./asserts/images/seminar.jpg"
+                  alt="start-image"
+                  style="width: 70%"
+                />
+              </div>
+              <div class="main-page-start-ad">
+                <a
+                  href="https://www.google.com/url?sa=i&url=https%3A%2F%2Fhiu.vn%2Fhiu-it-department%2Fclb-khmt%2Fseminar-chuyen-de-ve-thiet-ke-web%2F&psig=AOvVaw1AL_q4JxcYrfNutl0P_dYg&ust=1729196618428000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCMjQ_sLdk4kDFQAAAAAdAAAAABAI"
+                  class="main-page-start-ad-link"
+                  target="_blank"
+                >
+                  <img
+                    src="./asserts/images/seminar-ad.jpg"
+                    alt="start-image-ad"
+                    style="border: 1px solid #ccc"
+                  />
+                </a>
+              </div>
+            </div>
+            <div class="navigation-general">
+              <a href="" class="navigation-item navigate-selected">1</a>
+              <a href="" class="navigation-item">2</a>
+              <a href="" class="navigation-item">3</a>
+              <a href="" class="navigation-item">4</a>
+              <a href="" class="navigation-item">5</a>
+              <a href="" class="navigation-item">
+                <i class="fa-solid fa-chevron-right"></i>
+              </a>
+            </div>
+          </div>
+        </section>
+        <section id="subject-info">
+          <nav class="left-nav" id="left-nav">
+            <div class="left-nav-times" id="close-nav">
+              <i class="fa-solid fa-xmark"></i>
+            </div>
+            <h2 class="left-nav-header">Menu</h2>
+            <ul class="left-nav-list">
+              <li class="left-nav-item">
+                <a href="#subject-info-des" class="left-nav-link"
+                  >Thông tin khai tổng quan</a
+                >
+              </li>
+              <li class="left-nav-item">
+                <a href="#subject-info-para" class="left-nav-link"
+                  >Mô tả tóm tắt</a
+                >
+              </li>
+            </ul>
+          </nav>
+          <div class="content">
+            <!-- link 1 in top navigation -->
+            <div id="subject-info-des" class="flex-property">
+              <div class="main-page-start-article">
+                <h2 class="main-page-start-heading">Thông tin tổng quan</h2>
+                <ul class="main-page-start-list">
+                  <li class="main-page-start-item">
+                    Tên môn học: IT4409/IT4409E - Công nghệ web và dịch vụ trực
+                    tuyến (Web technologies and e-Services)
+                  </li>
+                  <li class="main-page-start-item">
+                    Đơn vị: Trường Công nghệ thông tin và truyền thông
+                  </li>
+                  <li class="main-page-start-item">Phân bố: 3(2-2-0-6)</li>
+                  <li class="main-page-start-item">
+                    Điều phối viên: Thầy Phạm Huy Hoàng
+                  </li>
+                  <li class="main-page-start-item">
+                    Hình thức thi: Trắc nghiệm trên hệ thống daotao.ai
+                  </li>
+                  <li class="main-page-start-item">
+                    Hệ đào tạo:
+                    <ul class="main-page-prepare">
+                      <li class="main-page-prepare-item">Thạc sỹ Khoa học</li>
+                      <li class="main-page-prepare-item">Kỹ sư chính quỹ</li>
+                      <li class="main-page-prepare-item">Cử nhân</li>
+                      <li class="main-page-prepare-item">Việt-Nhật</li>
+                    </ul>
+                  </li>
+                </ul>
+                <img
+                  src="./asserts/images/subject-info.jpg"
+                  alt="start-image"
+                />
+              </div>
+              <div class="main-page-start-ad">
+                <a
+                  href="https://soict.daotao.ai/courses/course-v1:SoICT+IT4409+2022-1/about"
+                  class="main-page-start-ad-link"
+                  target="_blank"
+                >
+                  <img
+                    src="./asserts/images/start-image-ad.png"
+                    alt="start-image-ad"
+                    style="border: 1px solid #ccc"
+                  />
+                </a>
+              </div>
+            </div>
+            <div id="subject-info-para" class="flex-property">
+              <div class="main-page-start-article">
+                <h2 class="main-page-start-heading">Mô tả tóm tắt</h2>
+                <ul class="main-page-start-list">
+                  <li class="main-page-start-item">
+                    Mục tiêu: Học phần cung cấp các kiến thức cần thiết để xây
+                    dựng và phát triển các ứng dụng, dịch vụ trực tuyến trên môi
+                    trường web. Sau khi học xong học phần này, sinh viên có khả
+                    năng:
+                  </li>
+                  <li class="main-page-start-item">
+                    Chuẩn bị ban đầu:
+                    <ul class="main-page-prepare">
+                      <li class="main-page-prepare-item">
+                        Có thể sử dụng một ngôn ngữ lập trình như JSP, PHP để
+                        phát triển ứng dụng web cho các lĩnh vực khác nhau; hiểu
+                        quản trị nội dung (CMS), công thông tin (Portal), hay
+                        các ứng dụng điện tử (eCommerce, eLearning, eGovernment,
+                        ...)
+                      </li>
+                      <li class="main-page-prepare-item">
+                        Nắm vững được các công nghệ web, các platform, framework
+                        hiện đang phổ biến.
+                      </li>
+                    </ul>
+                  </li>
+                  <li class="main-page-start-item">
+                    Ngoài ra học phần cũng cung cấp cho sinh viên các kỹ năng
+                    làm việc nhóm, thuyết trình và thái độ cần thiết để làm việc
+                    và ứng dụng các kỹ thuật trong các dự án, công ty về phần
+                    mềm sau này.
+                  </li>
+                </ul>
+              </div>
+              <div class="main-page-start-ad">
+                <a
+                  href="https://qldt.hust.edu.vn/#danh-sach-lop"
+                  class="main-page-start-ad-link"
+                  target="_blank"
+                >
+                  <img
+                    src="./asserts/images/subject-ad.jpg"
+                    alt="start-image-ad"
+                    style="border: 1px solid #ccc"
+                  />
+                </a>
+              </div>
+            </div>
+            <div class="navigation-general">
+              <a href="" class="navigation-item navigate-selected">1</a>
+              <a href="" class="navigation-item">2</a>
+              <a href="" class="navigation-item">3</a>
+              <a href="" class="navigation-item">4</a>
+              <a href="" class="navigation-item">5</a>
+              <a href="" class="navigation-item">
+                <i class="fa-solid fa-chevron-right"></i>
+              </a>
+            </div>
+            <!-- edit soon -->
+          </div>
+        </section>
+        <section id="tech-use">
+          <nav class="left-nav" id="left-nav">
+            <div class="left-nav-times" id="close-nav">
+              <i class="fa-solid fa-xmark"></i>
+            </div>
+            <h2 class="left-nav-header">Menu</h2>
+            <ul class="left-nav-list">
+              <li class="left-nav-item">
+                <a href="#tech-use-html" class="left-nav-link">HTML</a>
+              </li>
+              <li class="left-nav-item">
+                <a href="#tech-use-css" class="left-nav-link">CSS</a>
+              </li>
+              <li class="left-nav-item">
+                <a href="#tech-use-javascript" class="left-nav-link"
+                  >JavaScript</a
+                >
+              </li>
+              <li class="left-nav-item">
+                <a href="#tech-use-framework" class="left-nav-link"
+                  >Framework</a
+                >
+              </li>
+            </ul>
+          </nav>
+          <div class="content">
+            <!-- link 1 in top navigation -->
+            <div id="tech-use-html" class="flex-property">
+              <div class="main-page-start-article">
+                <h2 class="main-page-start-heading">HTML</h2>
+                <ul class="main-page-start-list">
+                  <li class="main-page-start-item">
+                    HTML (Hypertext Markup Language)
+                  </li>
+                  <li class="main-page-start-item">
+                    <ul class="main-page-prepare">
+                      <li class="main-page-prepare-item">
+                        HTML là ngôn ngữ đánh dấu chuẩn để xây dựng cấu trúc và
+                        nội dung của trang web.
+                      </li>
+                      <li class="main-page-prepare-item">
+                        Với các thẻ và cú pháp HTML, bạn có thể tạo lập các phần
+                        tử cơ bản như tiêu đề, đoạn văn, liên kết, hình ảnh,
+                        danh sách, bảng, v.v.
+                      </li>
+                      <li class="main-page-prepare-item">
+                        HTML cung cấp khung khổ và nền tảng cho việc xây dựng
+                        trang web, quyết định các yếu tố hiển thị trên trang.
+                      </li>
+                    </ul>
+                  </li>
+                </ul>
+                <img src="./asserts/images/html.png" alt="start-image" />
+              </div>
+              <div class="main-page-start-ad">
+                <a
+                  href="https://www.google.com/url?sa=i&url=https%3A%2F%2Ftopviecit.vn%2Fblog%2Fhtml-co-phai-ngon-ngu-lap-trinh-khong%2F&psig=AOvVaw2QveNUt6FiHgAxB0Jn5P2U&ust=1729194266780000&source=images&cd=vfe&opi=89978449&ved=0CBcQjhxqFwoTCOisteHUk4kDFQAAAAAdAAAAABAN"
+                  class="main-page-start-ad-link"
+                  target="_blank"
+                >
+                  <img
+                    src="./asserts/images/html-ad.jpg"
+                    alt="start-image-ad"
+                    style="border: 1px solid #ccc"
+                  />
+                </a>
+              </div>
+            </div>
+            <div id="tech-use-css" class="flex-property">
+              <div class="main-page-start-article">
+                <h2 class="main-page-start-heading">CSS</h2>
+                <ul class="main-page-start-list">
+                  <li class="main-page-start-item">
+                    CSS (Cascading Style Sheets)
+                    <ul class="main-page-prepare">
+                      <li class="main-page-prepare-item">
+                        CSS là ngôn ngữ định kiểu để kiểm soát và định dạng giao
+                        diện, ngoại hình của trang web.
+                      </li>
+                      <li class="main-page-prepare-item">
+                        Với CSS, bạn có thể điều chỉnh các thuộc tính như font
+                        chữ, kích thước, màu sắc, bố cục, hiệu ứng và các phong
+                        cách trực quan khác.
+                      </li>
+                      <li class="main-page-prepare-item">
+                        CSS tách biệt nội dung (HTML) với trình bày, giúp tối ưu
+                        hóa và duy trì tính nhất quán trong thiết kế trang web.
+                      </li>
+                    </ul>
+                  </li>
+                </ul>
+                <img src="./asserts/images/css.png" alt="start-image" />
+              </div>
+              <div class="main-page-start-ad">
+                <a
+                  href="https://www.google.com/url?sa=i&url=https%3A%2F%2Fmona.media%2Fcss-la-gi%2F&psig=AOvVaw34WCdcZAmOiAMOIaQQFVPG&ust=1729194800640000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCPiEuPXWk4kDFQAAAAAdAAAAABAY"
+                  class="main-page-start-ad-link"
+                  target="_blank"
+                >
+                  <img
+                    src="./asserts/images/css-ad.png"
+                    alt="start-image-ad"
+                    style="border: 1px solid #ccc"
+                  />
+                </a>
+              </div>
+            </div>
+            <div id="tech-use-javascript" class="flex-property">
+              <div class="main-page-start-article">
+                <h2 class="main-page-start-heading">JavaScript</h2>
+                <ul class="main-page-start-list">
+                  <li class="main-page-start-item">
+                    JavaScript
+                    <ul class="main-page-prepare">
+                      <li class="main-page-prepare-item">
+                        JavaScript là ngôn ngữ lập trình phía client-side để
+                        tăng tính tương tác và động của trang web.
+                      </li>
+                      <li class="main-page-prepare-item">
+                        Với JavaScript, bạn có thể thực hiện các tính năng như
+                        hiển thị thông báo, xử lý biểu mẫu, kiểm tra đầu vào,
+                        tạo hiệu ứng và hành vi động.
+                      </li>
+                      <li class="main-page-prepare-item">
+                        JavaScript giúp trang web trở nên sinh động, đáp ứng tốt
+                        hơn nhu cầu của người dùng.
+                      </li>
+                    </ul>
+                  </li>
+                </ul>
+                <img src="./asserts/images/js.png" alt="start-image" />
+              </div>
+              <div class="main-page-start-ad">
+                <a
+                  href="https://www.google.com/url?sa=i&url=https%3A%2F%2Fthienanblog.com%2Fjavascript%2Fjavascript-co-ban%2Ftim-hieu-kieu-du-lieu-trong-javascript%2F&psig=AOvVaw2Zop4xwuqjYK1Vw93P1EQU&ust=1729195020967000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCJDglcnXk4kDFQAAAAAdAAAAABAJ"
+                  class="main-page-start-ad-link"
+                  target="_blank"
+                >
+                  <img
+                    src="./asserts/images/js-ad.png"
+                    alt="start-image-ad"
+                    style="border: 1px solid #ccc"
+                  />
+                </a>
+              </div>
+            </div>
+            <div id="tech-use-framework" class="flex-property">
+              <div class="main-page-start-article">
+                <h2 class="main-page-start-heading">Framework</h2>
+                <ul class="main-page-start-list">
+                  <li class="main-page-start-item">
+                    Các framework và thư viện JavaScript
+                    <ul class="main-page-prepare">
+                      <li class="main-page-prepare-item">
+                        Những công cụ như React, Angular, Vue.js là các
+                        framework JavaScript giúp xây dựng ứng dụng web phức tạp
+                        một cách hiệu quả hơn.
+                      </li>
+                      <li class="main-page-prepare-item">
+                        Các framework này cung cấp sẵn các thành phần, mô-đun và
+                        cấu trúc đã được định nghĩa, giúp tăng tốc quá trình
+                        phát triển.
+                      </li>
+                      <li class="main-page-prepare-item">
+                        Việc sử dụng framework JavaScript cho phép tối ưu hóa
+                        hiệu suất, cải thiện khả năng mở rộng và duy trì tính
+                        nhất quán của ứng dụng web.
+                      </li>
+                    </ul>
+                  </li>
+                </ul>
+                <img src="./asserts/images/frame.png" alt="start-image" />
+              </div>
+              <div class="main-page-start-ad">
+                <a
+                  href="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.lumar.io%2Febooks%2Fjavascript-seo-guide%2Fwhat-is-javascript%2F&psig=AOvVaw1p3tV4I3ESnKGM3qyX12Sk&ust=1729195173104000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCJCD1pHYk4kDFQAAAAAdAAAAABAo"
+                  class="main-page-start-ad-link"
+                  target="_blank"
+                >
+                  <img
+                    src="./asserts/images/frame-ad.png"
+                    alt="start-image-ad"
+                    style="border: 1px solid #ccc"
+                  />
+                </a>
+              </div>
+            </div>
+            <div class="navigation-general">
+              <a href="" class="navigation-item navigate-selected">1</a>
+              <a href="" class="navigation-item">2</a>
+              <a href="" class="navigation-item">3</a>
+              <a href="" class="navigation-item">4</a>
+              <a href="" class="navigation-item">5</a>
+              <a href="" class="navigation-item">
+                <i class="fa-solid fa-chevron-right"></i>
+              </a>
+            </div>
+            <!-- edit soon -->
+          </div>
+        </section>
+        <section id="student-info">
+          <nav class="left-nav" id="left-nav">
+            <div class="left-nav-times" id="close-nav">
+              <i class="fa-solid fa-xmark"></i>
+            </div>
+            <h2 class="left-nav-header">Menu</h2>
+            <ul class="left-nav-list">
+              <li class="left-nav-item">
+                <a href="#student-info-des" class="left-nav-link"
+                  >Thông tin liên hệ</a
+                >
+              </li>
+              <li class="left-nav-item">
+                <a href="#student-info-hobby" class="left-nav-link">Sở thích</a>
+              </li>
+              <li class="left-nav-item">
+                <a href="#student-info-experience" class="left-nav-link"
+                  >Kinh nghiệm</a
+                >
+              </li>
+              <!-- <li class="left-nav-item">
+                        <a href="#" class="left-nav-link">Link</a>
+                      </li> -->
+            </ul>
+          </nav>
+          <div class="content">
+            <!-- link 1 in top navigation -->
+            <div id="student-info-des" class="flex-property">
+              <div class="main-page-start-article">
+                <h2 class="main-page-start-heading">Thông tin liên hệ</h2>
+                <ul class="main-page-start-list">
+                  <li class="main-page-start-item">
+                    Tên tôi là Nguyễn Thị Thùy Dung, 21 tuổi với sự đam mê mãnh
+                    liệt về lập trình web. Tôi rất vui được chia sẻ với các bạn
+                    về hành trình của mình.
+                    <ul class="main-page-prepare">
+                      <li class="main-page-prepare-item">
+                        Email: dung.ntt215009@sis.hust.edu.vn
+                      </li>
+                      <li class="main-page-prepare-item">
+                        Số điện thoại: 0382175199
+                      </li>
+                    </ul>
+                  </li>
+                </ul>
+              </div>
+              <div class="main-page-start-ad">
+                <a
+                  href="https://github.com/Dungntt2003"
+                  class="main-page-start-ad-link"
+                  target="_blank"
+                >
+                  <img
+                    src="./asserts/images/avatar.png"
+                    alt="start-image-ad"
+                    style="border: 1px solid #ccc; width: 200px"
+                  />
+                </a>
+              </div>
+            </div>
+            <div id="student-info-hobby" class="flex-property">
+              <div class="main-page-start-article">
+                <h2 class="main-page-start-heading">Sở thích</h2>
+                <ul class="main-page-start-list">
+                  <li class="main-page-start-item">
+                    <ul class="main-page-prepare">
+                      <li class="main-page-prepare-item">
+                        Đọc sách, tìm hiểu xu hướng công nghệ mới.
+                      </li>
+                      <li class="main-page-prepare-item">
+                        Chơi guitar và âm nhạc.
+                      </li>
+                      <li class="main-page-prepare-item">
+                        Đạp xe, du lịch khám phá các địa điểm mới.
+                      </li>
+                      <li class="main-page-prepare-item">
+                        Tham gia các hoạt động tình nguyện vì cộng đồng.
+                      </li>
+                    </ul>
+                  </li>
+                </ul>
+              </div>
+              <div class="main-page-start-ad"></div>
+            </div>
+            <div id="student-info-experience" class="flex-property">
+              <div class="main-page-start-article">
+                <h2 class="main-page-start-heading">Kinh nghiệm</h2>
+                <ul class="main-page-start-list">
+                  <li class="main-page-start-item">
+                    <ul class="main-page-prepare">
+                      <li class="main-page-prepare-item">
+                        2 năm làm việc tại một công ty phát triển web, tham gia
+                        xây dựng nhiều trang web thương mại điện tử và các ứng
+                        dụng web động.
+                      </li>
+                      <li class="main-page-prepare-item">
+                        Thành thạo các công nghệ web như HTML, CSS, JavaScript,
+                        React, Node.js.
+                      </li>
+                      <li class="main-page-prepare-item">
+                        Có kinh nghiệm thiết kế giao diện người dùng thân thiện
+                        và tối ưu trải nghiệm.
+                      </li>
+                      <li class="main-page-prepare-item">
+                        Hiểu biết sâu về cơ sở dữ liệu, API và triển khai ứng
+                        dụng web lên môi trường production.
+                      </li>
+                    </ul>
+                  </li>
+                </ul>
+                <img
+                  src="./asserts/images/web-demo.jpg"
+                  alt="start-image"
+                  style="max-width: 60%"
+                />
+              </div>
+              <div class="main-page-start-ad"></div>
+            </div>
+          </div>
+        </section>
+      </main>
+      <footer>
+        <div class="footer-container">
+          <div class="footer-box">
+            <div class="footer-item-box">Về chúng tôi</div>
+            <div class="footer-item-box">Sản phẩm</div>
+            <div class="footer-item-box">Giải thưởng</div>
+            <div class="footer-item-box">Trợ giúp</div>
+            <div class="footer-item-box">Liên hệ</div>
+          </div>
+          <div class="footer-description mobile-hidden">
+            Môn học Lập trình Web mang đến cho bạn nền tảng vững chắc để trở
+            thành một nhà phát triển web chuyên nghiệp. Từ HTML và CSS đến
+            JavaScript và các framework hiện đại, chúng tôi sẽ dẫn dắt bạn bước
+            từng bước, trang bị cho bạn những kỹ năng cần thiết để thiết kế, xây
+            dựng và triển khai những trang web ấn tượng. Hãy tham gia cùng chúng
+            tôi trong hành trình khai phá những khả năng sáng tạo vô hạn của
+            mình.
+          </div>
+          <div class="footer-box-icon">
+            <div class="footer-icon-wrap">
+              <i class="fa-brands fa-facebook"></i>
+              <i class="fa-brands fa-twitter"></i>
+              <i class="fa-brands fa-instagram"></i>
+              <i class="fa-brands fa-facebook-messenger"></i>
+              <i class="fa-brands fa-youtube"></i>
+              <i class="fa-brands fa-linkedin"></i>
+            </div>
+          </div>
+          <div class="footer-copy-right">
+            <i class="fa-regular fa-copyright"></i>
+            <span>Copyright: soict.edu.vn</span>
+          </div>
+        </div>
+      </footer>
+    </div>
+
+    <script>
+      window.onload = function () {
+        if (!window.location.hash) {
+          window.location.hash = "#main-page";
+        }
+      };
+      const links = document.querySelectorAll(".left-nav-link");
+
+      links.forEach((link) => {
+        link.addEventListener("click", function (event) {
+          event.preventDefault();
+          const targetId = this.getAttribute("href");
+          const targetElement = document.querySelector(targetId);
+
+          if (targetElement) {
+            targetElement.scrollIntoView({ behavior: "smooth" });
+          }
+        });
+      });
+
+      // xử lý khi navbars xuất hiện trên mobile và tablets
+      const menuToggle = document.getElementById("menu-toggle");
+      const leftNavs = document.querySelectorAll("#left-nav");
+      const closeNavs = document.querySelectorAll("#close-nav");
+
+      menuToggle.addEventListener("click", function (event) {
+        event.preventDefault();
+        leftNavs.forEach((leftNav) => {
+          leftNav.classList.add("open");
+        });
+      });
+
+      closeNavs.forEach((closeNav) => {
+        closeNav.addEventListener("click", function () {
+          leftNavs.forEach((leftNav) => {
+            leftNav.classList.remove("open");
+          });
+        });
+      });
+    </script>
+  </body>
+</html>

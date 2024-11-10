@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <style type="text/css" media="screen">
+    table {
+      border: 1px solid;
+      padding: 1px;
+    }
+    th,
+    td {
+      border: 1px solid;
+      padding: 10px;
+      text-align: center;
+    }
+  </style>
+  <body>
+    <h1>Text Variations</h1>
+    <p>
+      We can use <b>simple</b> tags to <i>change</i> the appearance of
+      <strong>text</strong> within <tt>Web pages</tt>. Even super<sup
+        >script</sup
+      >
+      and sub<sub>scripts</sub> are <em>supported</em>.
+    </p>
+    <h1>Text Escape Sequences</h1>
+    <p>&amp; &lt; &gt; &quot; &copy;</p>
+    <h1>Preformatted text</h1>
+    <pre>
+ University of Liverpool 
+ Department of Computer Science 
+ Ashton Building, Ashton Street 
+ Liverpool, L69 3BX, UK 
+ </pre
+    >
+    <ul style="list-style-type: square">
+      <li>... first list item...</li>
+      <li>... second list item... ...</li>
+    </ul>
+    <dl>
+      <dt>Dweeb</dt>
+      <dd>young excitable person who may mature into a <em>Nerd</em></dd>
+      <dt>Hacker</dt>
+      <dd>a clever programmer</dd>
+      <dt>Nerd</dt>
+      <dd>technically bright but socially inept person</dd>
+    </dl>
+    <ol style="list-style-type: none; counter-reset: list 29">
+      <li class="my_li">Makes first item number 30.</li>
+      <li class="my_li">Next item continues to number 31.</li>
+    </ol>
+    <img
+      src="http://www.csc.liv.ac.uk/~martin/teaching/comp519/HTML/Cathedral.jpg"
+      title="Liverpool's Anglican cathedral"
+      alt="image of Liverpool's Anglican Cathedral"
+      width="400"
+    />
+    <table>
+      <tr>
+        <th>HEAD1</th>
+        <th>HEAD2</th>
+        <th>HEAD3</th>
+      </tr>
+      <tr>
+        <td>one</td>
+        <td>two</td>
+        <td>three</td>
+      </tr>
+      <tr>
+        <td rowspan="2">four</td>
+        <td colspan="2">five</td>
+      </tr>
+      <tr>
+        <td>six</td>
+        <td>seven</td>
+      </tr>
+    </table>
+    <div contenteditable="true">Please click here to edit text</div>
+
+  </body>
+</html>
